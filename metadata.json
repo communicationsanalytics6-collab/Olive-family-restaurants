@@ -1,0 +1,10 @@
+{
+  "name": "Olive Family Restaurants",
+  "description": "Premium brand portal and interactive websites for Spur Steak Ranches and Panarottis Pizza in Nigeria, complete with an advanced CMS admin backend, granular RBAC, and detailed analytics.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

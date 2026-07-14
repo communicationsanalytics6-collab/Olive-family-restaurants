@@ -1,0 +1,112 @@
+{
+  "collections": {
+    "users": {
+      "schema": {
+        "uid": "string",
+        "email": "string",
+        "displayName": "string",
+        "role": "string",
+        "savedAddresses": "array",
+        "favourites": "array"
+      }
+    },
+    "menuItems": {
+      "schema": {
+        "id": "string",
+        "name": "string",
+        "description": "string",
+        "price": "number",
+        "category": "string",
+        "imageUrl": "string",
+        "brand": "string",
+        "isPopular": "boolean",
+        "prepTime": "number"
+      }
+    },
+    "orders": {
+      "schema": {
+        "id": "string",
+        "customerName": "string",
+        "customerEmail": "string",
+        "phone": "string",
+        "address": "string",
+        "items": "array",
+        "totalAmount": "number",
+        "status": "string",
+        "brand": "string",
+        "createdAt": "string",
+        "deliveryMinutes": "number",
+        "courierName": "string",
+        "trackingCoordinates": "object"
+      }
+    },
+    "tableReservations": {
+      "schema": {
+        "id": "string",
+        "name": "string",
+        "email": "string",
+        "phone": "string",
+        "date": "string",
+        "time": "string",
+        "guests": "number",
+        "notes": "string",
+        "status": "string",
+        "createdAt": "string",
+        "brand": "string"
+      }
+    },
+    "feedback": {
+      "schema": {
+        "id": "string",
+        "name": "string",
+        "email": "string",
+        "brand": "string",
+        "type": "string",
+        "subject": "string",
+        "message": "string",
+        "rating": "number",
+        "status": "string",
+        "createdAt": "string"
+      }
+    },
+    "promos": {
+      "schema": {
+        "id": "string",
+        "title": "string",
+        "description": "string",
+        "code": "string",
+        "discountPercent": "number",
+        "brand": "string",
+        "imageUrl": "string",
+        "isBannerActive": "boolean",
+        "expiresAt": "string"
+      }
+    },
+    "blogs": {
+      "schema": {
+        "id": "string",
+        "title": "string",
+        "content": "string",
+        "author": "string",
+        "brand": "string",
+        "imageUrl": "string",
+        "isPublished": "boolean",
+        "isFeatured": "boolean",
+        "readTime": "number",
+        "createdAt": "string"
+      }
+    },
+    "visitorAgreements": {
+      "schema": {
+        "id": "string",
+        "visitorName": "string",
+        "visitorEmail": "string",
+        "visitorCompany": "string",
+        "userAgent": "string",
+        "agreed": "boolean",
+        "agreedAt": "string",
+        "legalVersion": "string"
+      }
+    }
+  }
+}
